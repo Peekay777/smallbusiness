@@ -1,0 +1,144 @@
+/*
+* {
+	outline: 1px dotted #000;
+}
+*/
+
+html, body {
+	height: 100%;
+	min-width: 900px;
+	color: #333;
+	font-family: 'HelveticaNeueW01-65Medi', Helvetica, Arial, sans-serif;
+}
+
+header {
+	background-image: url(images/architechture.jpg);
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 900px;
+	height: 600px;
+}
+
+.container-wrapper {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.overlay {
+	background-color: rgba(240,240,240,0.7);
+	border-radius: 5px;
+	position: absolute;
+	padding: 5px;
+}
+
+#company-name {
+	left: 20px;
+	top: 20px;
+}
+
+#company-name h1 {
+	font-size: 85px;	
+}
+
+#company-name p {
+	font-size: 50px;
+}
+
+nav {
+	display: none;
+	word-spacing: 10px;
+	font-size: 20px;
+	width: 270px;
+	left: 50%;
+	top: 550px;
+	
+}
+
+a {
+	color: #333;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#more-info {
+	right: 20px;
+	top: 500px;
+	font-size: 20px;
+}
+
+#projects {
+	min-width: 900px;
+}
+
+#projects-container {
+	margin: 0px 20px;
+}
+
+.proj {
+	display: inline-block;
+	width: 31%;
+	margin: auto 1%;
+}
+
+.proj img {
+	width: 100%;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h2 {
+	background-color: rgb(240,240,240);
+	font-size: 40px;
+	font-weight: bold;
+	margin: 40px auto 20px auto;
+	border-top: 3px solid #ccc;
+	border-bottom: 3px solid #ccc;
+	padding: 5px 0px 5px 20px;
+}
+
+#practice-container {
+	margin: 0px 20px;
+	width: auto;
+}
+
+.pract {
+	display: inline-block;
+	width: 66%;
+}
+
+.pract p {
+	margin-bottom: 10px;
+}
+
+#practice-container img {
+	width: 33%;
+	vertical-align: top;
+}
+
+#more-info {
+	text-align: center;	
+}
+
+#more-info fieldset{
+	margin: 10px auto;
+}
+
+#copyright {
+	text-align: center;
+	margin: 10px auto;
+}
+
+footer {
+		
+}
